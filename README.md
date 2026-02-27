@@ -72,10 +72,6 @@ neym/
 └── README.md
 ```
 
-## License
-
-MIT
-
 ## Author
 
 Developed by Arif
