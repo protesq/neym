@@ -1,4 +1,4 @@
 """Core package for neym library."""
-from .randomizer import names
+from .randomizer import names, last_names
 
-__all__ = ["names"]
+__all__ = ["names", "last_names"]
