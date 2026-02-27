@@ -1,5 +1,9 @@
 # neym
 
+<p align="center">
+  <img src="assets/logo.png" width="200" alt="neym logo">
+</p>
+
 A simple Turkish name generator library.
 
 ## Description
@@ -25,39 +29,19 @@ pip install .
 ### Generate a Random Turkish Name
 
 ```python
-from generators.name_generator import generate_turkish_name
+import neym
 
-name = generate_turkish_name()
+name = neym.generate_turkish_name()
 print(name)  # Generates a random Turkish name
 ```
 
 ### Generate a Random Last Name
 
 ```python
-from core.randomizer import random_lastname
+import neym
 
-lastname = random_lastname()
+lastname = neym.generate_turkish_last_name()
 print(lastname)  # Generates a random Turkish last name
-```
-
-### Get All Available Names
-
-```python
-from core.randomizer import names
-
-all_names = names()
-print(len(all_names))  # Total number of names
-print(all_names[:5])   # First 5 names
-```
-
-### Get All Available Last Names
-
-```python
-from core.randomizer import lastnames
-
-all_lastnames = lastnames()
-print(len(all_lastnames))  # Total number of last names
-print(all_lastnames[:5])   # First 5 last names
 ```
 
 ## Features
